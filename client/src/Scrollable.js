@@ -20,7 +20,8 @@ export default function Scrollable() {
   return (
     <>
       <div id="container" class="bg-black rounded-t-2xl z-[1000] relative">
-        <div id="headerWrapper" class="">
+        {/* added class */}
+        <div id="headerWrapper" class=""> 
             <Header />
         </div>
         <div class="" id="contentWrapper">

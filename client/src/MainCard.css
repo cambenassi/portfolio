@@ -27,3 +27,13 @@
     animation-fill-mode: forwards;
 }
 
+#resumeButton:hover, #github:hover, #linkedin:hover{
+    transform: scale(1.05);
+    transition: all .25s;
+}
+
+##resumeButton, #github, #linkedin{
+  transform: scale(1);
+  transition: all .25s;
+}
+
