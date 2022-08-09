@@ -1,0 +1,14 @@
+#headerWrapper {
+    /* z-index: 1001; */
+    /* background-color: #131313 !important; */
+}
+
+#contentWrapper {
+    background-color: rgb(230, 230, 230);
+    z-index: -1;
+}
+
+.push-down {
+    padding-top: 60px;
+}
+
