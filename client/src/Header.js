@@ -44,7 +44,7 @@ $(function(){
 
     $(document).on('click', '#experience', function () {
       $("html").animate(
-        { scrollTop: $("#experienceContainer").offset().top -115}, 800);
+        { scrollTop: $("#experienceContainer").offset().top -80}, 800);
     });
 
     $(document).on('click', '#projects', function () {
@@ -55,14 +55,17 @@ $(function(){
 export default function Header() {
   return (
     <>
-      <div class="bg-white text-white w-full h-12 fixed top-0">_</div>
-      <div class="" id='nav_bar'>
-          <ul class='nav_links text-center' id="nav_links">
-              <li id="aboutMe" class="mr-20 text-xl hover:cursor-pointer">About Me</li>
-              <li id="experience" class="text-xl hover:cursor-pointer">Experience</li>
-              <li id="projects" class="ml-20 text-xl hover:cursor-pointer">Projects</li>
-              {/* <button class="text-white text-xl float-right mr-[1.5vw] mt-1">Contact Me</button> */}
-          </ul>
+      {/* Desktop View */}
+      <div class="">
+        <div class="bg-white text-white w-full h-12 fixed top-0">_</div>
+        <div class="" id='nav_bar'>
+            <ul class='nav_links text-center' id="nav_links">
+                <li id="aboutMe" class="xs:mr-8 md:mr-20 xs:text-sm md:text-xl hover:cursor-pointer">About Me</li>
+                <li id="experience" class="xs:text-sm md:text-xl hover:cursor-pointer">Experience</li>
+                <li id="projects" class="xs:ml-8 md:ml-20 xs:text-sm md:text-xl hover:cursor-pointer">Projects</li>
+                {/* <button class="text-white text-xl float-right mr-[1.5vw] mt-1">Contact Me</button> */}
+            </ul>
+        </div>
       </div>
     </>
   )

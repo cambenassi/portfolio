@@ -3,8 +3,10 @@ import $ from 'jquery';
 
 import Header from './Header';
 import AboutMe from './AboutMe';
-import './Scrollable.css';
 import Experience from './Experience';
+import MobileHeader from './MobileHeader';
+
+import './Scrollable.css';
 
 $(function () {
   window.addEventListener('scroll', function() {
@@ -20,7 +22,6 @@ export default function Scrollable() {
   return (
     <>
       <div id="container" class="bg-black rounded-t-2xl z-[1000] relative">
-        {/* added class */}
         <div id="headerWrapper" class=""> 
             <Header />
         </div>

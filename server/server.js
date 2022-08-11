@@ -1,6 +1,7 @@
 const express = require("express");
 const PORT = process.env.PORT || 3001;
 const app = express();
+const path = require('path');
 
 if (process.env.NODE_ENV === 'production') {
   // Serve any static files
