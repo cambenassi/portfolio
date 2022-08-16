@@ -12,10 +12,10 @@ $(function(){
 
       let height = $( window ).height();
 
-      if ($(window).scrollTop() > height * .87) {
+      if ($(window).scrollTop() > height * .885) {
         $('#nav_bar').addClass('navbar-fixed');
       }
-      if ($(window).scrollTop() < height * .87 + 1) {
+      if ($(window).scrollTop() < height * .885 + 1) {
         $('#nav_bar').removeClass('navbar-fixed');
       }
     });
@@ -60,9 +60,9 @@ export default function Header() {
         <div class="bg-white text-white w-full h-12 fixed top-0">_</div>
         <div class="" id='nav_bar'>
             <ul class='nav_links text-center' id="nav_links">
-                <li id="aboutMe" class="xs:mr-8 md:mr-20 xs:text-sm md:text-xl hover:cursor-pointer">About Me</li>
-                <li id="experience" class="xs:text-sm md:text-xl hover:cursor-pointer">Experience</li>
-                <li id="projects" class="xs:ml-8 md:ml-20 xs:text-sm md:text-xl hover:cursor-pointer">Projects</li>
+                <li id="aboutMe" class="xs:mr-8 md:mr-20 xs:text-[4.5vw] md:text-xl hover:cursor-pointer">About Me</li>
+                <li id="experience" class="xs:text-[4.5vw] md:text-xl hover:cursor-pointer">Experience</li>
+                <li id="projects" class="xs:ml-8 md:ml-20 xs:text-[4.5vw] md:text-xl hover:cursor-pointer">Projects</li>
                 {/* <button class="text-white text-xl float-right mr-[1.5vw] mt-1">Contact Me</button> */}
             </ul>
         </div>

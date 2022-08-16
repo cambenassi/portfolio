@@ -1,0 +1,15 @@
+.icon {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#webDevIcons::-webkit-scrollbar {
+    display: none;
+}
+
+#webDevIcons {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
