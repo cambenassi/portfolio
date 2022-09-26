@@ -75,7 +75,7 @@ export default function AboutMe(props) {
                   <img class="h-20 w-20" title="MySQL" src={mysql}/>
                   <img class="h-20 w-18 pl-2 " title="Python" src={python}/>
                 </div>
-                <div class="flex justify-between" id="row4">
+                <div class="flex justify-between pt-10" id="row4">
                   <img class="h-20 w-18 pl-2 " title="C" src={c}/>
                   <img class="h-20 w-18 pl-2 " title="C++" src={cpp}/>
                   <img class="h-20 w-18 pl-2 " title="x86 Assembly Languages" src={x86}/>
