@@ -1,8 +1,47 @@
+@keyframes slideRight {
+  0% {
+    transform: translateX(5.5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-5.5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideRight{
+  opacity: 0;
+  animation: .1s ease-out slideRight;
+  animation-fill-mode: forwards;
+}
+
+.slideLeft {
+  opacity: 0;
+  animation: .15s ease-out slideLeft;
+  animation-fill-mode: forwards;
+}
+
+#aboutMeContainer{
+  opacity: 0;
+  animation: .5s ease-out 2.5s 1 slideIn;
+  animation-fill-mode: forwards;
+  transition: border .1s;
+}
+
 .icon {
     height: 80px;
     width: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 #webDevIcons::-webkit-scrollbar {
@@ -12,4 +51,66 @@
 #webDevIcons {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+.borders1 {
+  background:
+    linear-gradient(to right, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, black 4px, transparent 4px) 0 100%;
+
+  /* background:
+    linear-gradient(to right, black 4px, transparent 4px) 0 0,
+    linear-gradient(to right, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, black 4px, transparent 4px) 100% 100%; */
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.borders2 {
+  background:
+    linear-gradient(to right, black 4px, transparent 4px) 0 0,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
+    linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.bordersFull {
+  background:
+    linear-gradient(to right, black 4px, transparent 4px) 0 0,
+    linear-gradient(to right, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.bordersFull:hover {
+  background:
+    linear-gradient(to right, black 4px, transparent 4px) 0 0,
+    linear-gradient(to right, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
 }

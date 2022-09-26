@@ -1,0 +1,39 @@
+{
+    "CGP": {
+        "name": "CoolGreenPower",
+        "position": "Full Stack Developer",
+        "duration": "Sep 2022 - Current",
+        "link": "https://www.coolgreenpower.com/",
+        "responsibilities": {
+            "0": "Responsible for diagnosing and fixing various database and API issues",
+            "1": "Restyling existing frontend code with TailwindCSS",
+            "2": "Using MERN stack - MongoDB, ExpressJS, React, NodeJS",
+            "3": "Microsoft Azure is used for deployment"
+        }
+    },
+    "RevoluSun": {
+        "name": "RevoluSun Massachusetts",
+        "position": "Front End Developer",
+        "duration": "May 2022 - August 2022",
+        "link": "https://massachusetts.revolusun.com/",
+        "responsibilities": {
+            "0": "Utilized HTML/CSS, JavaScript and jQuery to update and create new pages",
+            "1": "Used SEO methods to improve page load time as well as search rankings",
+            "2": "Built the Solar Estimator, a tool customers can use to estimate solar savings",
+            "3": ""
+        }
+    },
+    "MWRA": {
+        "name": "Massachusetts Water Resources Authority",
+        "textSize": "small",
+        "position": "Full Stack Developer",
+        "duration": "June 2021 - January 2022",
+        "link": "https://www.mwra.com/",
+        "responsibilities": {
+            "0": "Built an internal employee directory website to help employees find information about other employees",
+            "1": "Utilized classroom knowledge of HTML, CSS, JavaScript and jQuery on projects",
+            "2": "Shadowed and wrote in Visual Basic, C# and SQL in the ASP.NET library for employee directory backend ",
+            "3": "Gracefully handled complex queries and large amounts of data from SQL server"
+        }
+    }
+}

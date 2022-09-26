@@ -9,31 +9,43 @@
     }
 }
 
-#imgContainer {
+.slide-left{
+  opacity: 1;
+  animation: .15s ease-out slideLeft;
+  animation-fill-mode: forwards;
+} 
+
+#imgContainer.fade-up{
     opacity: 0;
     animation: .7s ease-out 0s 1 slideIn;
     animation-fill-mode: forwards;
 }
 
-#textContainer {
+#textContainer.fade-up{
     opacity: 0;
     animation: .5s ease-out .65s 1 slideIn;
     animation-fill-mode: forwards;
 }
 
-#btnContainer {
+#btnContainer.fade-up{
     opacity: 0;
     animation: .5s ease-out .65s 1 slideIn;
     animation-fill-mode: forwards;
 }
 
-#resumeButton:hover, #github:hover, #linkedin:hover{
-    transform: scale(1.05);
+#resumeButton:hover{
     transition: all .25s;
+    border-radius: 15px;
 }
 
-##resumeButton, #github, #linkedin{
+#resumeButton, #github, #linkedin, #gitButton{
   transform: scale(1);
+  transition: all .5s;
+  border-radius: 0px;
+}
+
+#github:hover, #linkedin:hover, #gitButton:hover{
+  transform: scale(1.1);
   transition: all .25s;
 }
 

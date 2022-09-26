@@ -1,0 +1,16 @@
+#companyName:hover::after{
+    width: 100%;
+}
+
+#companyName::after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: black;
+    transition: 300ms;
+}
+
+#companyContainer {
+    background-color: white !important;
+}

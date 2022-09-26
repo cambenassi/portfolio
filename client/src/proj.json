@@ -1,0 +1,36 @@
+{
+    "portfolio": {
+        "name": "This Portfolio Website!",
+        "technologies": "React, NodeJS, Express JS",
+        "duration": "June 2022 - September 2022",
+        "desc": "A simple portfolio website built to practice React as well as to showcase my programming experience. ",
+        "link": "https://github.com/cambenassi/portfolio",
+        "linkType": "Github"
+    },
+    "Spiderweb": {
+        "name": "Spiderweb",
+        "technologies": "Angular, C#, ASP.NET, MySQL",
+        "duration": "June 2022 - Current",
+        "desc": "A website made to help programmers keep track of the various bugs they encounter in their projects. Built to practice full stack web development with Angular, as well as other technologies such as Bcrypt password hashing and JSON Web Token implementation.",
+        "link": "https://bitbucket.org/cambenassi/spiderweb/src/main/",
+        "linkType": "BitBucket"
+    },
+    "StockTracker": {
+        "name": "Politician Stock Tracker",
+        "technologies": "MongoDB, ExpressJS, React, NodeJS",
+        "duration": "January 2022 - May 2022",
+        "desc": "GUI for Web Development Project; a website built to track the financial moves of politicians using data from the STOCK Act. Volunteered to be on backend development team as well as to be responsibile for deployment on Heroku."
+    },
+    "EvilHangman": {
+        "name": "Evil Hangman",
+        "technologies": "C",
+        "duration": "January 2020 - May 2020",
+        "desc": "A game of hangman where the computer will always win due to it constantly changing the word. Written in C, implemented vectors from scratch as well as implemented a binary search tree to sort said vectors."
+    },
+    "SolarSystem": {
+        "name": "Solar System Simulator",
+        "technologies": "C++",
+        "duration": "March 2021 - April 2021",
+        "desc": "Created a graphical simulation of the solar system, where a sprite's movement is calculated based off of the gravitational forces of other solar system objects as well as their position. Used the C++ SFML library for graphics, as well as implementing various classes and polymorphic functions."
+    }
+}
