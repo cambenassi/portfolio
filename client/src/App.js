@@ -41,7 +41,7 @@ export default function App() {
     <>
       <div class="" id="contentWrapper">
         <MainCard />
-        <footer id="navbar" class="z-[999]w-full xs:pb-3 md:pb-5 pr-3">
+        <footer id="navbar" class="z-[999] bg-white w-full xs:pb-3 md:pb-5 pr-3">
           <ul class="pt-4 mt-4 text-center sticky flex items-center justify-center">
             <li id="aboutMe" class="text-xl sm:text-xl hover:cursor-pointer xs:mr-5 sm:mr-6 md:mr-16">About Me</li>
             <li id="experience" class="text-xl sm:text-xl hover:cursor-pointer">Experience</li>
