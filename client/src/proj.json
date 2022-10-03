@@ -19,7 +19,7 @@
         "name": "Politician Stock Tracker",
         "technologies": "MongoDB, ExpressJS, React, NodeJS",
         "duration": "January 2022 - May 2022",
-        "desc": "GUI for Web Development Project; a website built to track the financial moves of politicians using data from the STOCK Act. Volunteered to be on backend development team as well as to be responsibile for deployment on Heroku."
+        "desc": "GUI for Web Development Project; a website built to track the financial moves of politicians using data from the STOCK Act. Volunteered to be on backend development team as well as to be responsible for deployment on Heroku."
     },
     "EvilHangman": {
         "name": "Evil Hangman",
